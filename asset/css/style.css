@@ -370,7 +370,7 @@ input[type="email"] {
   .product-inner {
       width: 262px;
       height: 395px;
-      /* margin-bottom: 61px; */
+      margin-bottom: 61px;
       position: relative;
       box-shadow: 0px 0px 5px 0px grey;
 }
