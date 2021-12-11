@@ -369,10 +369,11 @@ input[type="email"] {
   
   .product-inner {
       width: 262px;
-      height: 450px;
-      margin-bottom: 61px;
+      height: 395px;
+      /* margin-bottom: 61px; */
       position: relative;
-  }
+      box-shadow: 0px 0px 5px 0px grey;
+}
 
   /* .product-inner:hover {
         background-color: red;
@@ -397,6 +398,7 @@ input[type="email"] {
   .img-price {
       display: flex;
       justify-content: center;
+      padding-bottom: 25px;
   }
   
   .img-price h6 {
@@ -422,18 +424,19 @@ input[type="email"] {
   }
 
   .img-inner {
-    padding-top: 55px;
-    padding-bottom: 15px;
+    padding-top: 32px;
+    padding-bottom: 6px;
 }
 
-.img-price {
-    padding-bottom: 49px;
-}
 
 /* end product section */
 
 
 /* strat hot section */
+
+section.hot-item {
+    padding-top: 115px;
+}
 
 .hot-inner {
       display: flex;
@@ -543,14 +546,14 @@ section.fashion {
   .fash-img-content {
       text-align: center;
       padding-top: 12px;
-      padding-top: 42px;
+      padding-top: 15px;
       padding-bottom: 10px;
   }
   
   .fash-inner {
       width: 165px;
       height: 255px;
-      margin-bottom: 44px;
+      /* margin-bottom: 44px; */
   }
 
   .fash-img {
@@ -726,7 +729,7 @@ section.fashion {
   
   
   .card-body {
-      padding: 0 !important;
+      /* padding: 0 !important; */
       padding-top: 30px !important;
   }
   
